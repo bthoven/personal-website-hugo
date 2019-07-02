@@ -1,0 +1,144 @@
+/*************** GENERAL SKELETON OF THE WEBSITE ***************/
+/******************************/
+* {
+    box-sizing: border-box;
+}
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+/******************************/
+
+html, body {
+    margin: 0;
+    padding: 0;
+    /******************************/
+    height: 100%;
+    position: relative;
+    /******************************/
+}
+body .container-fluid {
+    width: 100%;
+    padding: 50px 0 0 0;
+    /******************************/
+    min-height: 100vh;  /* will cover the 100% of viewport */
+    overflow: hidden;
+    display: block;
+    position: relative;
+    padding-bottom: 130px;  /* height of your footer */
+    /******************************/
+}
+body .container-fluid .container-header-bg-about,
+body .container-fluid .container-header-bg-portfolio,
+body .container-fluid .container-header-bg-publications,
+body .container-fluid .container-header-bg-resume,
+body .container-fluid .container-header-bg-blog,
+body .container-fluid .container-header-bg {
+    /*background-size: 100% 100%;*/
+    height: 550px;
+    width: 100%;
+    margin-bottom: 0;
+    border-color: green;
+}
+body .container-fluid .container-header-bg-about .container-header,
+body .container-fluid .container-header-bg-portfolio .container-header,
+body .container-fluid .container-header-bg-publications .container-header,
+body .container-fluid .container-header-bg-resume .container-header,
+body .container-fluid .container-header-bg-blog .container-header,
+body .container-fluid .container-header-bg .container-header {
+    height: 100%;
+    max-width: 43rem;
+    margin: auto;
+    padding: 0 15px;
+    border-color: orange;
+}
+
+.navbar-custom {
+    height: 50px;
+}
+
+/* To center the title vertically. Source: Source: https://stackoverflow.com/a/22218694/10029849 */
+#page-title {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-color: red;
+}
+
+/* This isn't working for some reason */
+.site_content {
+    max-width: 43rem;
+    margin: auto;
+    padding: 15px 15px 50px 15px;
+}
+
+footer {
+    margin: auto;
+    bottom: 0;
+    height: 130px;
+    padding-top: 10px;
+    /******************************/
+    width: 100%;
+    /******************************/
+}
+/*************** END OF THE GENERAL SKELETON OF THE WEBSITE ***************/
+
+.site_content h1,
+.site_content h2,
+.site_content h3,
+.site_content h4 {
+    padding-top: 1em;
+    padding-bottom: 0.4em;
+}
+
+.face_image {
+     height: 200px;
+     margin: 20px;
+}
+
+.face_image img {
+     height: 100%;
+     /*margin: 20px;*/
+}
+
+.blog-post-content {
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+pre {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.single-button {
+    -webkit-border-top-left-radius: 2px;
+    -moz-border-radius-topleft: 2px;
+    border-top-left-radius: 2px;
+    -webkit-border-top-right-radius: 2px;
+    -moz-border-radius-topright: 2px;
+    border-top-right-radius: 2px;
+    -webkit-border-bottom-right-radius: 2px;
+    -moz-border-radius-bottomright: 2px;
+    border-bottom-right-radius: 2px;
+    -webkit-border-bottom-left-radius: 2px;
+    -moz-border-radius-bottomleft: 2px;
+    border-bottom-left-radius: 2px;
+    text-indent: 0;
+    padding: 3px 30px;
+}
+.single-button:hover .single-button:active {top: 1px;}
+/* This button was generated using CSSButtonGenerator.com */
+
+#social_profiles {
+    margin: 10px;
+}
+#social_profiles a {
+    margin: 2px;
+}
+
+.vertical-line-menu {
+    padding: 5px 0px 5px 10px;
+    margin: 5px 0px 5px 15px;
+}

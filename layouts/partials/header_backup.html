@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+
+<html>
+
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+
+        <!-- load bootstrap css -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+        <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:extra-light,regular,bold|Source+Code+Pro:extra-light,regular,bold" rel="stylesheet">
+
+        <title>
+            {{ if .IsHome }}
+                {{ .Site.Params.author_abbrv }}
+            {{ else }}
+                {{ .Site.Params.author_abbrv }} | {{ .Title }}
+            {{ end }}
+        </title>
+        <link rel="stylesheet" href="/css/colors.css">
+        <link rel="stylesheet" href="/css/elements.css">
+        <link rel="stylesheet" href="/css/fonts.css">
+        <link rel="stylesheet" href="/css/sizes.css">
+
+        <!-- load mathjax JS -->
+        {{ partial "mathjax_support.html" . }}
+
+        <!-- To use special icons for my profiles in several networks -->
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdn.rawgit.com/jpswalsh/academicons/master/css/academicons.min.css">
+    </head>
+
+    <body>
+        <div class="container-fluid">
+            <div class="container-header-bg">
+                <div class="container-header">
+                    <!-- example 6 - center on mobile. Source (with some modifications): https://www.codeply.com/go/qhaBrcWp3v -->
+                    <nav class="navbar navbar-expand-lg navbar-dark text-light">
+                        <div class="d-flex flex-grow-1">
+                            <span class="w-100 d-lg-none d-block"><!-- hidden spacer to center brand on mobile --></span>
+                            {{ if not .IsHome }}
+                                <a class="navbar-brand d-none d-lg-inline-block" href="/">
+                                    {{ lower .Site.Params.author_abbrv }}
+                                </a>
+                            {{ end }}
+                            <a class="navbar-brand-two mx-auto d-lg-none d-inline-block" href="#">
+                                <img src="//placehold.it/40?text=LOGO" alt="logo">
+                            </a>
+                            <div class="w-100 text-right">
+                                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#myNavbar">
+                                    <span class="navbar-toggler-icon"></span>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="collapse navbar-collapse flex-grow-1 text-right" id="myNavbar">
+                            <ul class="navbar-nav ml-auto flex-nowrap">
+<!--                                 {{ if not (eq .URL "/about/") }}
+                                    <li class="nav-item">
+                                        <a href="/about" class="nav-link m-2 menu-item {{ if eq .URL "/about"}}active{{ end }}">about me</a>
+                                    </li>
+                                {{ end }}
+                                {{ if not (eq .URL "/portfolio/") }}
+                                    <li class="nav-item">
+                                        <a href="/portfolio/" class="nav-link m-2 menu-item {{ if eq .URL "/portfolio/"}}active{{ end }}">portfolio/</a>
+                                    </li>
+                                {{ end }}
+                                {{ if not (eq .URL "/resume/") }}
+                                    <li class="nav-item">
+                                        <a href="/resume" class="nav-link m-2 menu-item {{ if eq .URL "/resume"}}active{{ end }}">resume</a>
+                                    </li>
+                                {{ end }}
+                                {{ if not (eq .URL "/blog/") }}
+                                    <li class="nav-item">
+                                        <a href="/blog/" class="nav-link m-2 menu-item {{ if eq .URL "/blog/"}}active{{ end }}">blog/</a>
+                                    </li>
+                                {{ end }} -->
+                                {{ if (eq .URL "/about/") }}
+                                    <li class="navitem-active">
+                                        <span>about me</span>
+                                    </li>
+                                {{ else }}
+                                    <li class="nav-item">
+                                        <a href="/about" class="nav-link m-2 menu-item {{ if eq .URL "/about"}}active{{ end }}">about me</a>
+                                    </li>
+                                {{ end }}
+                                {{ if (eq .URL "/portfolio/") }}
+                                    <li class="nav-item-active">
+                                        <span>portfolio</span>
+                                    </li>
+                                {{ else }}
+                                    <li class="nav-item">
+                                        <a href="/portfolio/" class="nav-link m-2 menu-item {{ if eq .URL "/portfolio/"}}active{{ end }}">portfolio/</a>
+                                    </li>
+                                {{ end }}
+                                {{ if (eq .URL "/resume/") }}
+                                    <li class="nav-item-active">
+                                        <span>resume</span>
+                                    </li>
+                                {{ else }}
+                                    <li class="nav-item">
+                                        <a href="/resume" class="nav-link m-2 menu-item {{ if eq .URL "/resume"}}active{{ end }}">resume</a>
+                                    </li>
+                                {{ end }}
+                                {{ if (eq .URL "/blog/") }}
+                                    <li class="nav-item-active">
+                                        <span>blog/</span>
+                                    </li>
+                                {{ else }}
+                                    <li class="nav-item">
+                                        <a href="/blog/" class="nav-link m-2 menu-item {{ if eq .URL "/blog/"}}active{{ end }}">blog/</a>
+                                    </li>
+                                {{ end }}
+                            </ul>
+                        </div>
+                    </nav>
+
+                    <section id="page-title">
+                        {{ if .IsHome }}
+                            <h1>{{ lower .Site.Params.author }}</h1>
+                        {{ else }}
+                            <h1>{{ lower .Title }}</h1>
+                        {{ end }}
+                    </section>
+                </div>
+            </div>

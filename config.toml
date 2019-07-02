@@ -1,0 +1,9 @@
+baseURL = "https://www.beethovensantos.com"
+languageCode = "en-us"
+title = "B. Santos"
+theme = "basics"
+relativeURLs = true
+
+[params]
+    author = "Beethoven Santos"
+    author_abbrv = "B. Santos"

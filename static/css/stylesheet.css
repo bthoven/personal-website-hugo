@@ -1,0 +1,239 @@
+html, body {
+    font-family: 'Source Sans Pro', 'Source Code Pro', sans-serif;
+    color: #eee;
+    background-color: #111;
+    /*padding-bottom: 60px;*/
+    margin: 0;
+    padding: 0;
+    /*height: 100%;*/
+}
+
+#page-title {
+    text-align: center;   /* line-height and height are the same, so the text */
+    line-height: 275px;   /* inside page-title is centered vertically. */
+    height: 275px;        /* Source: https://www.w3schools.com/css/css_align.asp; */
+}
+
+#page-title h1 {
+    color: white;
+    font-size: 80px;
+    font-weight: lighter;
+    line-height: 1.5;
+    display: inline-block;
+    vertical-align: middle;
+    text-shadow: 1px 1px 1px #aaa;
+}
+
+#page-title h1 a {
+    color: black;
+    font-size: 2.7rem;
+}
+
+.post a {
+    color: black;
+}
+
+#author-name h6 a {
+    color: black;
+    font-weight: normal;
+    font-size: small;
+}
+
+#page-title a:hover, .post a:hover {
+    text-decoration: underline;
+}
+
+.date-time-title {
+    font-family: 'Ubuntu Mono', monospace;
+}
+
+.blog-post-content {
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+.posts_listing li {
+    list-style-type: none;
+}
+
+h1 {
+    font-size: 2rem;
+    color: #56bafa;
+}
+
+h2 {
+    font-size: 1.7rem;
+}
+
+h3 {
+    font-size: 1.4rem;
+    text-decoration: underline;
+}
+
+h4 {
+    font-size: 1.2rem;
+}
+
+h5 {
+    font-size: 1rem;
+}
+
+h6 {
+    font-size: 0.8rem;
+}
+
+code {
+    font-family: 'Ubuntu Mono', monospace;
+    white-space: pre;
+    overflow-x: auto;
+}
+
+pre {
+    overflow-x: auto;
+    padding-left: 5px;
+    padding-right: 5px;
+    border: 1px solid lighten(#111, 90);
+    background-color: #efefef
+}
+
+footer {
+    text-align: center;
+    /*max-width: 55em;*/
+    margin: auto;
+    position: absolute;
+    bottom: 0;
+    height: 60px;
+    border: 1px solid white;
+}
+
+a:hover {
+    color: #56bafa;
+}
+
+a:link {
+    color: #56bafa;
+}
+
+a:visited {
+    color: #3498d8;
+}
+
+.single-button {
+    background-color: #444;
+    color: #aaa;
+    padding: 3px 30px;
+    text-align: center;
+    font-size: 15px;
+    cursor: pointer;
+    font-weight: bold;
+    border-style: solid;
+    border-color: #555;
+    border-radius: 3px;
+}
+
+.single-button:hover {
+    color: #aaa;
+    background-color: #555;
+    border-style: solid;
+    border-color: #555;
+    border-radius: 3px;
+}
+
+.single-button:active {
+    color: #ddd;
+    background-color: #444;
+}
+
+.single-button {
+    -moz-box-shadow:inset 0px 1px 0px 0px #ffffff;
+    -webkit-box-shadow:inset 0px 1px 0px 0px #ffffff;
+    box-shadow:inset 0px 1px 0px 0px #ffffff;
+    background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #ededed), color-stop(1, #dfdfdf) );
+    background:-moz-linear-gradient( center top, #ededed 5%, #dfdfdf 100% );
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ededed', endColorstr='#dfdfdf');
+    background-color:#ededed;
+    -webkit-border-top-left-radius:5px;
+    -moz-border-radius-topleft:5px;
+    border-top-left-radius:5px;
+    -webkit-border-top-right-radius:5px;
+    -moz-border-radius-topright:5px;
+    border-top-right-radius:5px;
+    -webkit-border-bottom-right-radius:5px;
+    -moz-border-radius-bottomright:5px;
+    border-bottom-right-radius:5px;
+    -webkit-border-bottom-left-radius:5px;
+    -moz-border-radius-bottomleft:5px;
+    border-bottom-left-radius:5px;
+    text-indent:0;
+    border:1px solid #dcdcdc;
+    display:inline-block;
+    color:#777777;
+    font-family:Verdana;
+    font-size:15px;
+    font-weight:bold;
+    font-style:normal;
+    /*height:50px;*/
+    /*line-height:50px;*/
+    /*width:100px;*/
+    text-decoration:none;
+    text-align:center;
+    text-shadow:1px 1px 0px #ffffff;
+    padding: 3px 30px;
+}
+.single-button:hover {
+    background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #dfdfdf), color-stop(1, #ededed) );
+    background:-moz-linear-gradient( center top, #dfdfdf 5%, #ededed 100% );
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#dfdfdf', endColorstr='#ededed');
+    background-color:#dfdfdf;
+}.single-button:active {
+    position:relative;
+    top:1px;
+}
+/* This button was generated using CSSButtonGenerator.com */
+
+body .container-fluid {
+    width: 100%;
+    min-height: 100%;
+    position: relative;
+    padding: 0;
+}
+
+body .container-fluid .container-header-bg {
+    background-image: url("/images/Rio_de_Janeiro_night_Dark_BW_3299x1500_lighter.jpg");
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    height: 350px;
+    width: 100%;
+    margin-bottom: 30px;
+    padding: 10px;
+    /*padding-bottom: 60px;*/
+}
+
+body .container-fluid .container-header {
+    height: 350px;
+    max-width: 55em;
+    margin: auto;
+    padding: 0;
+}
+
+/* This isn't working for some reason */
+.site_content {
+    width: 45em;
+    margin: auto;
+    font-size: 20px;
+    padding: 10px;
+    padding-bottom: 60px;
+}
+
+.navbar, .navbar-brand {
+    font-size: 30px !important;
+    text-shadow: 1px 1px 1px #aaa;
+}
+
+body,
+body div,
+body section {
+    border: 1px solid white;
+}

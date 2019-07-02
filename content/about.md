@@ -1,8 +1,12 @@
 ---
 title: "About Me"
-date: 2018-11-10T17:08:33-02:00
+date: 2019-07-02T04:18:30-03:00
 draft: false
 ---
+
+<div class="photo-description">
+    Sunset from my window
+</div>
 
 I have spent most of my professional life doing scientific research in the fields of cosmology and condensed matter physics.
 

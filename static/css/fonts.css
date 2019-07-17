@@ -1,6 +1,6 @@
 /* The font size of the root element */
 html, body {
-    font-family: 'Mukta Vaani', sans-serif;
+    font-family: 'Mukta', sans-serif;
     font-size: 16px;  /* The default size is 16px */
 }
 
@@ -10,7 +10,7 @@ html, body {
     font-size: 0.9rem !important;
 }
 .navbar-brand {
-    font-family: 'Mukta Vaani', sans-serif;
+    font-family: 'Mukta', sans-serif;
     font-size: 1.2rem !important;
     font-weight: bold;
 }

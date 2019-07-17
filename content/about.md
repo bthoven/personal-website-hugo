@@ -5,7 +5,7 @@ draft: false
 ---
 
 <div class="photo-description">
-    Sunset from my window
+    Sunset seen from my window
 </div>
 
 I have spent most of my professional life doing scientific research in the fields of cosmology and condensed matter physics.

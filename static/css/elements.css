@@ -6,16 +6,16 @@ html, body {
 #page-title h1 {
     display: inline-block;
     vertical-align: middle;
-    text-shadow: 0 0 10px #050505,
-                 0 0 10px #050505,
-                 0 0 10px #050505,
-                 0 0 10px #050505,
-                 0 0 10px #050505,
-                 0 0 10px #050505,
-                 0 0 10px #050505,
-                 0 0 10px #050505,
-                 0 0 10px #050505,
-                 0 0 10px #050505;
+    text-shadow: 0 0 10px 5px #b5b5b5,
+                 0 0 10px 5px #b5b5b5,
+                 0 0 10px 5px #b5b5b5,
+                 0 0 10px 5px #b5b5b5,
+                 0 0 10px 5px #b5b5b5,
+                 0 0 10px 5px #b5b5b5,
+                 0 0 10px 5px #b5b5b5,
+                 0 0 10px 5px #b5b5b5,
+                 0 0 10px 5px #b5b5b5,
+                 0 0 10px 5px #b5b5b5;
 }
 #page-title a:hover, .post a:hover {text-decoration: underline;}
 

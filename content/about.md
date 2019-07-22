@@ -4,10 +4,6 @@ date: 2019-07-02T04:18:30-03:00
 draft: false
 ---
 
-<div class="photo-description">
-    Sunset seen from my window
-</div>
-
 I have spent most of my professional life doing scientific research in the fields of cosmology and condensed matter physics.
 
 I started my academic life by achieving a bachelor's degree in condensed matter physics by the Federal University of Alagoas (Brazil) in 2007, where I investigated the unidimensional Anderson model with long-range correlated disorder.

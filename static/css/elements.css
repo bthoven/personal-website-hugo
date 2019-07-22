@@ -59,55 +59,51 @@ img {
 
 body .container-fluid {position: relative;}
 
-body .container-fluid .container-header-bg {
+.container-header-bg {
     background-image: url(
-        "../images/Rio_de_Janeiro_night_Dark_BW_3299x1500_lighter.jpg"
+        "../images/20190721-202743_001_Gloria_4024x1500.jpg"
     );
     background-repeat: no-repeat;
-    background-position: center bottom;
+    background-position: center top;
+    background-attachment: fixed;
+    background-size: contain;
+}
+.container-header-bg-about {
+    background-image: url(
+        "../images/20190721-202743_001_Gloria_4024x1500.jpg"
+    );
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-attachment: fixed;
+    background-size: contain;
+}
+.container-header-bg-portfolio {
+    background-image: url("../images/myoffice_on_20181105_2276x900.jpg");
+    background-repeat: no-repeat;
+    background-position: center top;
     background-attachment: fixed;
     background-size: cover;
 }
-body .container-fluid .container-header-bg-about {
+.container-header-bg-publications {
     background-image: url(
-        "../images/20190630_174747_HDR_Vista-Apto-Tijuca.jpg"
+        "../images/20190721-202743_001_Gloria_4024x1500.jpg"
     );
     background-repeat: no-repeat;
-    background-position: center bottom;
-    background-attachment: fixed;
-    background-size: cover;
-}
-body .container-fluid .container-header-bg-portfolio {
-    background-image: url(
-        "../images/Rio_de_Janeiro_night_Dark_BW_3299x1500_lighter.jpg"
-    );
-    background-repeat: no-repeat;
-    background-position: center bottom;
-    background-attachment: fixed;
-    background-size: cover;
-}
-body .container-fluid .container-header-bg-publications {
-    background-image: url(
-        "../images/Rio_de_Janeiro_night_Dark_BW_3299x1500_lighter.jpg"
-    );
-    background-repeat: no-repeat;
-    background-position: center bottom;
+    background-position: center top;
     background-attachment: fixed;
     background-size: cover;
 }
 body .container-fluid .container-header-bg-resume {
-    background-image: url("../images/myofficeon_20181105.jpg");
+    background-image: url("../images/myoffice_on_20181105_2276x900.jpg");
     background-repeat: no-repeat;
-    background-position: center bottom;
+    background-position: center top;
     background-attachment: fixed;
     background-size: cover;
 }
-body .container-fluid .container-header-bg-blog {
-    background-image: url(
-        "../images/Rio_de_Janeiro_night_Dark_BW_3299x1500_lighter.jpg"
-    );
+.container-header-bg-blog {
+    background-image: url("../images/myoffice_on_20181105_2276x900.jpg");
     background-repeat: no-repeat;
-    background-position: center bottom;
+    background-position: center top;
     background-attachment: fixed;
     background-size: cover;
 }

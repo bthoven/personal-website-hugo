@@ -6,7 +6,7 @@ html, body {
 
 /* The font setup of the navigation menu */
 .navbar {
-    font-family: 'Quicksand', sans-serif;
+    font-family: 'Mukta', sans-serif;
     font-size: 0.9rem !important;
 }
 .navbar-brand {
@@ -17,7 +17,7 @@ html, body {
 
 /* The font size of the title of the page */
 #page-title h1 {
-    font-family: 'Quicksand', sans-serif;
+    font-family: 'Mukta', sans-serif;
     font-size: 3rem;
     font-weight: 100;
 }

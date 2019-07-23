@@ -1,25 +1,25 @@
 /* The font size of the root element */
 html, body {
-    font-family: 'Mukta', sans-serif;
+    font-family: 'Roboto Slab', sans-serif;
     font-size: 16px;  /* The default size is 16px */
 }
 
 /* The font setup of the navigation menu */
 .navbar {
-    font-family: 'Mukta', sans-serif;
+    font-family: 'Roboto Slab', sans-serif;
     font-size: 0.9rem !important;
 }
 .navbar-brand {
-    font-family: 'Mukta', sans-serif;
+    font-family: 'Roboto Slab', sans-serif;
     font-size: 1.2rem !important;
     font-weight: bold;
 }
 
 /* The font size of the title of the page */
 #page-title h1 {
-    font-family: 'Mukta', sans-serif;
-    font-size: 4rem;
-    font-weight: 100;
+    font-family: 'Roboto Slab', sans-serif;
+    font-size: 4.5rem;
+    font-weight: 700;
 }
 
 #social_profiles {

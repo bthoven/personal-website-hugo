@@ -82,7 +82,7 @@ body .container-fluid {position: relative;}
     background-repeat: no-repeat;
     background-position: center top;
     background-attachment: fixed;
-    background-size: cover;
+    background-size: contain;
 }
 .container-header-bg-publications {
     background-image: url(
@@ -91,21 +91,21 @@ body .container-fluid {position: relative;}
     background-repeat: no-repeat;
     background-position: center top;
     background-attachment: fixed;
-    background-size: cover;
+    background-size: contain;
 }
 body .container-fluid .container-header-bg-resume {
     background-image: url("../images/myoffice_on_20181105_2276x900.jpg");
     background-repeat: no-repeat;
     background-position: center top;
     background-attachment: fixed;
-    background-size: cover;
+    background-size: contain;
 }
 .container-header-bg-blog {
     background-image: url("../images/myoffice_on_20181105_2276x900.jpg");
     background-repeat: no-repeat;
     background-position: center top;
     background-attachment: fixed;
-    background-size: cover;
+    background-size: contain;
 }
 
 #social_profiles {

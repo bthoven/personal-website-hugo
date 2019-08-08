@@ -55,9 +55,13 @@ body .container-fluid .container-header-bg .container-header {
 .container-header-bg-portfolio,
 .container-header-bg-publications,
 .container-header-bg-resume,
-.container-header-bg-blog,
-.container-header-bg {
+.container-header-bg-blog {
     height: 550px;
+    width: 100%;
+    margin-bottom: 0;
+}
+.container-header-bg {
+    height: 250px;
     width: 100%;
     margin-bottom: 0;
 }

@@ -27,7 +27,7 @@ html, body {
 }
 
 /* The font size of the content section (isn't working for some reason) */
-.site_content {font-size: 1.2rem;}
+.site_content {font-size: 1.1rem;}
 
 h1, h2 {font-weight: bold;}
 h4 {font-style: italic;}

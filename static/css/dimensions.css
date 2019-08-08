@@ -61,7 +61,6 @@ body .container-fluid .container-header-bg .container-header {
     margin-bottom: 0;
 }
 .container-header-bg {
-    height: 250px;
     width: 100%;
     margin-bottom: 0;
 }
@@ -69,7 +68,7 @@ body .container-fluid .container-header-bg .container-header {
     height: 100%;
     max-width: 43rem;
     margin: auto;
-    padding: 0 15px;
+    padding: 25px 15px;
 }
 
 .navbar-custom {
@@ -88,7 +87,7 @@ body .container-fluid .container-header-bg .container-header {
 .site_content {
     max-width: 43rem;
     margin: auto;
-    padding: 15px 15px 50px 15px;
+    padding: 15px 15px 25px 15px;
 }
 
 footer {

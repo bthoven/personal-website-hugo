@@ -135,3 +135,11 @@ body .container-fluid .container-header-bg-resume {
     margin-bottom: 60px;
     text-align: right;
 }
+
+/*****************************************************************************/
+/* FOR TESTING DIMENSIONING AND POSITIONING (Comment these lines when ready) */
+/*****************************************************************************/
+/*.container-header-bg {border: 1px solid blue;}*/
+/*.container-header {border: 1px solid red;}*/
+/*#page-title h1 {border: 1px solid orange;}*/
+/*.site_content {border: 1px solid green;}*/

@@ -11,13 +11,180 @@ draft: false
 
 # <i class="fas fa-laptop-code resume-header-icon"></i> SKILLS AND TOOLS
 
-- **Python:** Advanced
-- **Linux, Fortran, LaTeX, HTML:** Intermediate/Advanced
-- **C, CSS, Shell Script (Bash), SQL, Git:** Intermediate
-- **R, Julia, Go, PHP, JSON:** Basic
-<br><br>
-- **Bayesian statistics:** Intermediate/Advanced
-- **Frequentist statistics:** Basic/Intermediate
+<table>
+    <tr>
+        <td class="table-col1">Python</td>
+        <td class="table-col2">
+            <i class="fas fa-circle skills-bullet"></i>
+            <i class="fas fa-circle skills-bullet"></i>
+            <i class="fas fa-circle skills-bullet"></i>
+            <i class="fas fa-circle skills-bullet"></i>
+            <i class="fas fa-circle skills-bullet"></i>
+        </td>
+    </tr>
+    <tr>
+        <td class="table-col1">Linux</td>
+        <td class="table-col2">
+            <i class="fas fa-circle skills-bullet"></i>
+            <i class="fas fa-circle skills-bullet"></i>
+            <i class="fas fa-circle skills-bullet"></i>
+            <i class="fas fa-circle skills-bullet"></i>
+            <i class="far fa-circle skills-bullet"></i>
+        </td>
+    </tr>
+    <tr>
+        <td class="table-col1">Fortran</td>
+        <td class="table-col2">
+            <i class="fas fa-circle skills-bullet"></i>
+            <i class="fas fa-circle skills-bullet"></i>
+            <i class="fas fa-circle skills-bullet"></i>
+            <i class="fas fa-circle skills-bullet"></i>
+            <i class="far fa-circle skills-bullet"></i>
+        </td>
+    </tr>
+    <tr>
+        <td class="table-col1">LaTeX</td>
+        <td class="table-col2">
+            <i class="fas fa-circle skills-bullet"></i>
+            <i class="fas fa-circle skills-bullet"></i>
+            <i class="fas fa-circle skills-bullet"></i>
+            <i class="fas fa-circle skills-bullet"></i>
+            <i class="far fa-circle skills-bullet"></i>
+        </td>
+    </tr>
+    <tr>
+        <td class="table-col1">HTML</td>
+        <td class="table-col2">
+            <i class="fas fa-circle skills-bullet"></i>
+            <i class="fas fa-circle skills-bullet"></i>
+            <i class="fas fa-circle skills-bullet"></i>
+            <i class="fas fa-circle skills-bullet"></i>
+            <i class="far fa-circle skills-bullet"></i>
+        </td>
+    </tr>
+    <tr>
+        <td class="table-col1">C</td>
+        <td class="table-col2">
+            <i class="fas fa-circle skills-bullet"></i>
+            <i class="fas fa-circle skills-bullet"></i>
+            <i class="fas fa-circle skills-bullet"></i>
+            <i class="far fa-circle skills-bullet"></i>
+            <i class="far fa-circle skills-bullet"></i>
+        </td>
+    </tr>
+    <tr>
+        <td class="table-col1">CSS</td>
+        <td class="table-col2">
+            <i class="fas fa-circle skills-bullet"></i>
+            <i class="fas fa-circle skills-bullet"></i>
+            <i class="fas fa-circle skills-bullet"></i>
+            <i class="far fa-circle skills-bullet"></i>
+            <i class="far fa-circle skills-bullet"></i>
+        </td>
+    </tr>
+    <tr>
+        <td class="table-col1">Shell Script (Bash)</td>
+        <td class="table-col2">
+            <i class="fas fa-circle skills-bullet"></i>
+            <i class="fas fa-circle skills-bullet"></i>
+            <i class="fas fa-circle skills-bullet"></i>
+            <i class="far fa-circle skills-bullet"></i>
+            <i class="far fa-circle skills-bullet"></i>
+        </td>
+    </tr>
+    <tr>
+        <td class="table-col1">SQL</td>
+        <td class="table-col2">
+            <i class="fas fa-circle skills-bullet"></i>
+            <i class="fas fa-circle skills-bullet"></i>
+            <i class="fas fa-circle skills-bullet"></i>
+            <i class="far fa-circle skills-bullet"></i>
+            <i class="far fa-circle skills-bullet"></i>
+        </td>
+    </tr>
+    <tr>
+        <td class="table-col1">Git</td>
+        <td class="table-col2">
+            <i class="fas fa-circle skills-bullet"></i>
+            <i class="fas fa-circle skills-bullet"></i>
+            <i class="fas fa-circle skills-bullet"></i>
+            <i class="far fa-circle skills-bullet"></i>
+            <i class="far fa-circle skills-bullet"></i>
+        </td>
+    </tr>
+    <tr>
+        <td class="table-col1">R</td>
+        <td class="table-col2">
+            <i class="fas fa-circle skills-bullet"></i>
+            <i class="far fa-circle skills-bullet"></i>
+            <i class="far fa-circle skills-bullet"></i>
+            <i class="far fa-circle skills-bullet"></i>
+            <i class="far fa-circle skills-bullet"></i>
+        </td>
+    </tr>
+    <tr>
+        <td class="table-col1">Julia</td>
+        <td class="table-col2">
+            <i class="fas fa-circle skills-bullet"></i>
+            <i class="far fa-circle skills-bullet"></i>
+            <i class="far fa-circle skills-bullet"></i>
+            <i class="far fa-circle skills-bullet"></i>
+            <i class="far fa-circle skills-bullet"></i>
+        </td>
+    </tr>
+    <tr>
+        <td class="table-col1">Go</td>
+        <td class="table-col2">
+            <i class="fas fa-circle skills-bullet"></i>
+            <i class="far fa-circle skills-bullet"></i>
+            <i class="far fa-circle skills-bullet"></i>
+            <i class="far fa-circle skills-bullet"></i>
+            <i class="far fa-circle skills-bullet"></i>
+        </td>
+    </tr>
+    <tr>
+        <td class="table-col1">PHP</td>
+        <td class="table-col2">
+            <i class="fas fa-circle skills-bullet"></i>
+            <i class="far fa-circle skills-bullet"></i>
+            <i class="far fa-circle skills-bullet"></i>
+            <i class="far fa-circle skills-bullet"></i>
+            <i class="far fa-circle skills-bullet"></i>
+        </td>
+    </tr>
+    <tr>
+        <td class="table-col1">JSON</td>
+        <td class="table-col2">
+            <i class="fas fa-circle skills-bullet"></i>
+            <i class="far fa-circle skills-bullet"></i>
+            <i class="far fa-circle skills-bullet"></i>
+            <i class="far fa-circle skills-bullet"></i>
+            <i class="far fa-circle skills-bullet"></i>
+        </td>
+    </tr>
+
+    <tr style="height: 20px !important"><td colspan="3"></td></tr>
+    <tr>
+        <td class="table-col1">Bayesian statistics</td>
+        <td class="table-col2">
+            <i class="fas fa-circle skills-bullet"></i>
+            <i class="fas fa-circle skills-bullet"></i>
+            <i class="fas fa-circle skills-bullet"></i>
+            <i class="fas fa-circle skills-bullet"></i>
+            <i class="far fa-circle skills-bullet"></i>
+        </td>
+    </tr>
+    <tr>
+        <td class="table-col1">Frequentist statistics</td>
+        <td class="table-col2">
+            <i class="fas fa-circle skills-bullet"></i>
+            <i class="fas fa-circle skills-bullet"></i>
+            <i class="far fa-circle skills-bullet"></i>
+            <i class="far fa-circle skills-bullet"></i>
+            <i class="far fa-circle skills-bullet"></i>
+        </td>
+    </tr>
+</table>
 
 
 # <i class="fas fa-building resume-header-icon"></i> EXPERIENCE

@@ -136,6 +136,9 @@ body .container-fluid .container-header-bg-resume {
     text-align: right;
 }
 
+.table-col1 {text-align: right;}
+
+
 /*****************************************************************************/
 /* FOR TESTING DIMENSIONING AND POSITIONING (Comment these lines when ready) */
 /*****************************************************************************/

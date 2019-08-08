@@ -59,11 +59,14 @@ footer a.footer-link {
 .navbar-custom {
     background-color: #111;
 }
-/* change the brand and text color */
-.navbar-custom .navbar-brand,
+/* change the brand text color */
+.navbar-custom .navbar-brand {
+    color: lightgray;
+}
+/* change the navbar text color */
 .navbar-custom .navbar-text,
 .navbar-custom .navbar-nav .nav-link {
-    color: #ddd;
+    color: #aaa;
 }
 /* change the link color */
 /*.navbar-custom .navbar-nav .nav-link {
@@ -71,8 +74,11 @@ footer a.footer-link {
 }*/
 /* change the color of active or hovered links */
 .navbar-custom .nav-item.active .nav-link,
+.navbar-custom .nav-item.active:hover .nav-link {
+    color: #79bcff;  /* Teal */
+}
 .navbar-custom .nav-item:hover .nav-link {
-    color: #59bccc;  /* Teal */
+    color: #ddd;
 }
 /******************************/
 
@@ -123,9 +129,9 @@ pre {
 }
 
 /*a:hover {color: #a2222c;}*/
-a:hover {color: #79bccc;}  /* Teal */
+a:hover {color: #79bcff;}  /* Teal */
 /*a:link {color: #a2222c;}*/
-a:link {color: #79bccc;}  /* Teal */
+a:link {color: #79bcff;}  /* Teal */
 a:visited {color: #506f8f;}  /* Navy */
 
 /*.single-button {

@@ -44,7 +44,9 @@ footer {
 }
 
 img {
+    border: 1px solid #333;
     border-radius: 3px;
+    /*border-radius: 50%;*/
 }
 
 .single-button {
@@ -59,53 +61,40 @@ img {
 
 body .container-fluid {position: relative;}
 
+.container-header-bg,
+.container-header-bg-about,
+.container-header-bg-publications,
+.container-header-bg-portfolio,
+.container-header-bg-resume,
+.container-header-bg-blog {
+    background-repeat: no-repeat;
+    background-position: 0 -90px;
+    background-attachment: fixed;
+    background-size: contain;
+}
 .container-header-bg {
     background-image: url(
-        "../images/20190721-202743_001_Gloria_4024x1500.jpg"
+        "../images/20190721-202743_001_Gloria_4024x1500_BW.jpg"
     );
-    background-repeat: no-repeat;
-    background-position: center top;
-    background-attachment: fixed;
-    background-size: 0;
 }
 .container-header-bg-about {
     background-image: url(
-        "../images/20190721-202743_001_Gloria_4024x1500.jpg"
+        "../images/20190721-202743_001_Gloria_4024x1500_Color_Blend.jpg"
     );
-    background-repeat: no-repeat;
-    background-position: center top;
-    background-attachment: fixed;
-    background-size: contain;
 }
 .container-header-bg-portfolio {
-    background-image: url("../images/myoffice_on_20181105_2276x900.jpg");
-    background-repeat: no-repeat;
-    background-position: center top;
-    background-attachment: fixed;
-    background-size: contain;
+    background-image: url("../images/myoffice_on_20181105_2276x900_Cooler.jpg");
 }
 .container-header-bg-publications {
     background-image: url(
-        "../images/20190721-202743_001_Gloria_4024x1500.jpg"
+        "../images/20190721-202743_001_Gloria_4024x1500_Color_Blend.jpg"
     );
-    background-repeat: no-repeat;
-    background-position: center top;
-    background-attachment: fixed;
-    background-size: contain;
 }
-body .container-fluid .container-header-bg-resume {
-    background-image: url("../images/myoffice_on_20181105_2276x900.jpg");
-    background-repeat: no-repeat;
-    background-position: center top;
-    background-attachment: fixed;
-    background-size: contain;
+.container-header-bg-resume {
+    background-image: url("../images/myoffice_on_20181105_2276x900_Cooler.jpg");
 }
 .container-header-bg-blog {
-    background-image: url("../images/myoffice_on_20181105_2276x900.jpg");
-    background-repeat: no-repeat;
-    background-position: center top;
-    background-attachment: fixed;
-    background-size: contain;
+    background-image: url("../images/myoffice_on_20181105_2276x900_Cooler.jpg");
 }
 
 #social_profiles {
@@ -142,7 +131,7 @@ body .container-fluid .container-header-bg-resume {
 /*****************************************************************************/
 /* FOR TESTING DIMENSIONING AND POSITIONING (Comment these lines when ready) */
 /*****************************************************************************/
-/*.container-header-bg {border: 1px solid blue;}*/
+/*.container-header-bg, .container-header-bg-about, .container-header-bg-portfolio, .container-header-bg-publications, .container-header-bg-resume, .container-header-bg-blog {border: 1px solid blue;}*/
 /*.container-header {border: 1px solid red;}*/
 /*#page-title h1 {border: 1px solid orange;}*/
 /*.site_content {border: 1px solid green;}*/

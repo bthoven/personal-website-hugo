@@ -107,14 +107,11 @@ footer {
 }
 
 .face_image {
-     height: 200px;
-     width: 200px;
      margin: 20px;
 }
-
 .face_image img {
-     height: 100%;
-     /*margin: 20px;*/
+     height: 200px;  /* The H/W ratio of the original image is ~1.473 */
+     width: 136px;
 }
 
 .blog-post-content {

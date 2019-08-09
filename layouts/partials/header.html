@@ -128,10 +128,11 @@
 
                     <section id="page-title">
                         {{ if .IsHome }}
+                            <!-- <br><p></p> -->
                             <div class="face_image">
+                                <h1>{{ upper .Site.Params.author }}</h1><br>
                                 <img src="/images/2019-07-21-202808_001_BW.jpg" alt={{ .Site.Params.author }} title={{ .Site.Params.author }} />
                             </div>
-                            <h1>{{ upper .Site.Params.author }}</h1>
                         {{ else }}
                             <h1>{{ upper .Title }}</h1>
                         {{ end }}

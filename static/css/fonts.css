@@ -7,26 +7,26 @@ html, body {
 /* The font setup of the navigation menu */
 .navbar {
     font-family: 'Cabin', sans-serif;
-    font-size: 0.9rem !important;
+    font-size: 90% !important;
 }
 .navbar-brand {
     font-family: 'Cabin', sans-serif;
-    font-size: 1.1rem !important;
+    font-size: 110% !important;
     font-weight: bold;
 }
 
 /* The font size of the title of the page */
 #page-title h1 {
-    font-size: 4rem;
+    font-size: 400%;
     font-weight: 700;
 }
 
 #social_profiles {
-    font-size: 0.7rem;
+    font-size: 70%;
 }
 
 /* The font size of the content section (isn't working for some reason) */
-.site_content {font-size: 1.1rem;}
+.site_content {font-size: 110%;}
 
 h1, h2 {font-weight: bold;}
 h4 {font-style: italic;}
@@ -36,7 +36,7 @@ h4 {font-style: italic;}
 code {font-family: 'Source Code Pro', monospace;}
 
 .single-button {
-    font-size: 1.2rem;
+    font-size: 120%;
     font-weight: bold;
 }
 a.single-button:hover {
@@ -45,8 +45,8 @@ a.single-button:hover {
 /* This button was generated using CSSButtonGenerator.com */
 
 .photo-description {
-    font-size: 0.8rem;
+    font-size: 80%;
 }
 
-table {font-size: 0.8em;}
-.table-col2 {font-size: 1.5em;}
+table {font-size: 80%;}
+.table-col2 {font-size: 150%;}

@@ -139,8 +139,8 @@ body .container-fluid {position: relative;}
 /*****************************************************************************/
 /* FOR TESTING DIMENSIONING AND POSITIONING (Comment these lines when ready) */
 /*****************************************************************************/
-.container-header-bg, .container-header-bg-about, .container-header-bg-portfolio, .container-header-bg-publications, .container-header-bg-resume, .container-header-bg-blog {border: 1px solid blue;}
-.container-header {border: 1px solid red;}
-#page-title h1 {border: 1px solid orange;}
-.site_content {border: 1px solid green;}
-.face_image {border: 1px solid yellow;}
+/*.container-header-bg, .container-header-bg-about, .container-header-bg-portfolio, .container-header-bg-publications, .container-header-bg-resume, .container-header-bg-blog {border: 1px solid blue;}*/
+/*.container-header {border: 1px solid red;}*/
+/*#page-title h1 {border: 1px solid orange;}*/
+/*.site_content {border: 1px solid green;}*/
+/*.face_image {border: 1px solid yellow;}*/

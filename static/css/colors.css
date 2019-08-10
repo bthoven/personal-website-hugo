@@ -23,29 +23,16 @@ Here are some color templates from that site:
     Silver: #dddddd
 */
 
-
-/*html, body {
-    background-color: #fff;
-    color: #555;
-}*/
 html, body {
     background-color: #111;
     color: #ddd;
 }
 
-/*.site_content {
-    background-color: #fff;
-    color: #222;
-}*/
 .site_content {
     background-color: #111;
     color: #ddd;
 }
 
-/*footer {
-    background-color: #f1f1f1;
-    color: #717171;
-}*/
 footer {
     background-color: #111;
     color: #555;
@@ -68,10 +55,6 @@ footer a.footer-link {
 .navbar-custom .navbar-nav .nav-link {
     color: #aaa;
 }
-/* change the link color */
-/*.navbar-custom .navbar-nav .nav-link {
-    color: #ddd;
-}*/
 /* change the color of active or hovered links */
 .navbar-custom .nav-item.active .nav-link,
 .navbar-custom .nav-item.active:hover .nav-link {
@@ -86,12 +69,6 @@ footer a.footer-link {
     color: white;
 }
 
-/*#social_profiles a:link, #social_profiles a:visited {
-    color: #555;
-}*/
-/*#social_profiles a:hover {
-    color: #888;
-}*/
 #social_profiles a {
     color: #555;
 }
@@ -128,27 +105,10 @@ pre {
     background-color: #efefef;
 }
 
-/*a:hover {color: #a2222c;}*/
 a:hover {color: #79bcff;}  /* Teal */
-/*a:link {color: #a2222c;}*/
 a:link {color: #79bcff;}  /* Teal */
 a:visited {color: #506f8f;}  /* Navy */
 
-/*.single-button {
-    -moz-box-shadow: inset 0px 1px 0px 0px #ffffff;
-    -webkit-box-shadow: inset 0px 1px 0px 0px #ffffff;
-    box-shadow: inset 0px 1px 0px 0px #ffffff;
-    background: -webkit-gradient(linear, left top, left bottom,
-                                 color-stop(0.05, #ededed),
-                                 color-stop(1, #dfdfdf));
-    background: -moz-linear-gradient(center top, #ededed 5%, #dfdfdf 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ededed',
-                                                       endColorstr='#dfdfdf');
-    background-color: #ededed;
-    border: 1px solid #dcdcdc;
-    color: #777777;
-    text-shadow: 1px 1px 0px #ffffff;
-}*/
 .single-button {
     background-color: #222;
     border: 1px solid #fff;
@@ -157,15 +117,6 @@ a:visited {color: #506f8f;}  /* Navy */
 a.single-button {
     color: #fff;
 }
-/*.single-button:hover {
-    background: -webkit-gradient(linear, left top, left bottom,
-                                 color-stop(0.05, #dfdfdf),
-                                 color-stop(1, #ededed));
-    background: -moz-linear-gradient(center top, #dfdfdf 5%, #ededed 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#dfdfdf',
-                                                       endColorstr='#ededed');
-    background-color: #dfdfdf;
-}*/
 .single-button:hover {
     background-color: #fff;
     color: #333;

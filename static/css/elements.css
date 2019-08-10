@@ -1,3 +1,14 @@
+/*************** GENERAL ELEMENTS PROPERTIES ***************/
+
+/* Conversions from pixel units to base fontsize relative units, considering a
+   base fontsize of 16px.
+    3px   : 0.1875rem
+    5px   : 0.3125rem
+    8px   : 0.5rem
+    10px  : 0.625rem
+    90px  : 5.625rem
+*/
+
 html, body {
     text-rendering: optimizeLegibility;
 }
@@ -6,16 +17,16 @@ html, body {
 #page-title h1 {
     display: inline-block;
     vertical-align: middle;
-    text-shadow: 0 0 10px 5px #b5b5b5,
-                 0 0 10px 5px #b5b5b5,
-                 0 0 10px 5px #b5b5b5,
-                 0 0 10px 5px #b5b5b5,
-                 0 0 10px 5px #b5b5b5,
-                 0 0 10px 5px #b5b5b5,
-                 0 0 10px 5px #b5b5b5,
-                 0 0 10px 5px #b5b5b5,
-                 0 0 10px 5px #b5b5b5,
-                 0 0 10px 5px #b5b5b5;
+    text-shadow: 0 0 0.625rem 0.3125rem #b5b5b5,
+                 0 0 0.625rem 0.3125rem #b5b5b5,
+                 0 0 0.625rem 0.3125rem #b5b5b5,
+                 0 0 0.625rem 0.3125rem #b5b5b5,
+                 0 0 0.625rem 0.3125rem #b5b5b5,
+                 0 0 0.625rem 0.3125rem #b5b5b5,
+                 0 0 0.625rem 0.3125rem #b5b5b5,
+                 0 0 0.625rem 0.3125rem #b5b5b5,
+                 0 0 0.625rem 0.3125rem #b5b5b5,
+                 0 0 0.625rem 0.3125rem #b5b5b5;
 }
 #page-title a:hover, .post a:hover {text-decoration: underline;}
 
@@ -33,7 +44,7 @@ pre {overflow-x: auto;}
 footer {
     text-align: center;
     position: absolute;
-    box-shadow: 0 0 8px 0 rgba(100, 100, 100, 0.4);
+    box-shadow: 0 0 0.5rem 0 rgba(100, 100, 100, 0.4);
 }
 
 .face_image {
@@ -45,8 +56,7 @@ footer {
 
 img {
     border: 1px solid #333;
-    border-radius: 3px;
-    /*border-radius: 50%;*/
+    border-radius: 0.1875rem;
 }
 
 .single-button {
@@ -68,7 +78,7 @@ body .container-fluid {position: relative;}
 .container-header-bg-resume,
 .container-header-bg-blog {
     background-repeat: no-repeat;
-    background-position: 0 -90px;
+    background-position: 0 -15.625rem;
     background-attachment: fixed;
     background-size: contain;
 }
@@ -102,17 +112,17 @@ body .container-fluid {position: relative;}
 }
 
 .site_content {
-    border-bottom-radius: 5px;
+    border-bottom-radius: 0.3125rem;
     text-align: justify;
     text-justify: inter-word;
 }
 
 .navbar-custom {
-    box-shadow: 0 0 8px 0 rgba(50, 50, 50, 0.8);
+    box-shadow: 0 0 0.5rem 0 rgba(50, 50, 50, 0.8);
 }
 .navbar, .navbar-brand {
     position: fixed;
-    text-shadow: 0 0 5px black;
+    text-shadow: 0 0 0.3125rem black;
 }
 
 .vertical-line-menu {
@@ -120,8 +130,6 @@ body .container-fluid {position: relative;}
 }
 
 .photo-description {
-    margin-top: -60px;
-    margin-bottom: 60px;
     text-align: right;
 }
 
@@ -131,8 +139,8 @@ body .container-fluid {position: relative;}
 /*****************************************************************************/
 /* FOR TESTING DIMENSIONING AND POSITIONING (Comment these lines when ready) */
 /*****************************************************************************/
-/*.container-header-bg, .container-header-bg-about, .container-header-bg-portfolio, .container-header-bg-publications, .container-header-bg-resume, .container-header-bg-blog {border: 1px solid blue;}*/
-/*.container-header {border: 1px solid red;}*/
-/*#page-title h1 {border: 1px solid orange;}*/
-/*.site_content {border: 1px solid green;}*/
-/*.face_image {border: 1px solid yellow;}*/
+.container-header-bg, .container-header-bg-about, .container-header-bg-portfolio, .container-header-bg-publications, .container-header-bg-resume, .container-header-bg-blog {border: 1px solid blue;}
+.container-header {border: 1px solid red;}
+#page-title h1 {border: 1px solid orange;}
+.site_content {border: 1px solid green;}
+.face_image {border: 1px solid yellow;}

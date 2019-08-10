@@ -1,4 +1,23 @@
 /*************** GENERAL SKELETON OF THE WEBSITE ***************/
+
+/* Conversions from pixel units to base fontsize relative units, considering a
+   base fontsize of 16px.
+    2px   : 0.125rem
+    3px   : 0.1875rem
+    5px   : 0.3125rem
+    10px  : 0.625rem
+    15px  : 0.9375rem
+    20px  : 1.25rem
+    25px  : 1.5625rem
+    30px  : 1.875rem
+    50px  : 3.125rem
+    60px  : 3.75rem
+    130px : 8.125rem
+    136px : 8.5rem
+    170px : 10.625rem
+    200px : 12.5rem
+*/
+
 /******************************/
 * {
     box-sizing: border-box;
@@ -12,64 +31,39 @@
 html, body {
     margin: 0;
     padding: 0;
-    /******************************/
     height: 100%;
     position: relative;
-    /******************************/
 }
 body .container-fluid {
     width: 100%;
-    padding: 50px 0 0 0;
-    /******************************/
+    padding: 3.125rem 0 0 0;
     min-height: 100vh;  /* will cover the 100% of viewport */
     overflow: hidden;
     display: block;
     position: relative;
-    padding-bottom: 130px;  /* height of your footer */
-    /******************************/
+    padding-bottom: 8.125rem;  /* height of the footer */
 }
-/*body .container-fluid .container-header-bg-about,
-body .container-fluid .container-header-bg-portfolio,
-body .container-fluid .container-header-bg-publications,
-body .container-fluid .container-header-bg-resume,
-body .container-fluid .container-header-bg-blog,
-body .container-fluid .container-header-bg {
-    height: 550px;
-    width: 100%;
-    margin-bottom: 0;
-    border-color: green;
-}
-body .container-fluid .container-header-bg-about .container-header,
-body .container-fluid .container-header-bg-portfolio .container-header,
-body .container-fluid .container-header-bg-publications .container-header,
-body .container-fluid .container-header-bg-resume .container-header,
-body .container-fluid .container-header-bg-blog .container-header,
-body .container-fluid .container-header-bg .container-header {
-    height: 100%;
-    max-width: 43rem;
-    margin: auto;
-    padding: 0 15px;
-    border-color: orange;
-}*/
+
 .container-header-bg,
 .container-header-bg-about,
 .container-header-bg-portfolio,
 .container-header-bg-publications,
 .container-header-bg-resume,
 .container-header-bg-blog {
-    height: 450px;
+    height: 28rem;
     width: 100%;
     margin-bottom: 0;
 }
+
 .container-header {
     height: 100%;
     max-width: 43rem;
     margin: auto;
-    padding: 25px 15px;
+    padding: 1.5625rem 0.9375rem;
 }
 
 .navbar-custom {
-    height: 50px;
+    height: 3.125rem;
 }
 
 /* To center the title vertically. Source: Source: https://stackoverflow.com/a/22218694/10029849 */
@@ -84,17 +78,15 @@ body .container-fluid .container-header-bg .container-header {
 .site_content {
     max-width: 43rem;
     margin: auto;
-    padding: 15px 15px 25px 15px;
+    padding: 0.9375rem 0.9375rem 1.5625rem 0.9375rem;
 }
 
 footer {
     margin: auto;
     bottom: 0;
-    height: 130px;
-    padding-top: 10px;
-    /******************************/
+    height: 8.125rem;
+    padding-top: 0.625rem;
     width: 100%;
-    /******************************/
 }
 /*************** END OF THE GENERAL SKELETON OF THE WEBSITE ***************/
 
@@ -107,11 +99,11 @@ footer {
 }
 
 .face_image {
-     margin: 20px;
+     margin: 1.25rem;
 }
 .face_image img {
-     height: 200px;  /* The H/W ratio of the original image is ~1.473 */
-     width: 136px;
+     height: 12.5rem;  /* The H/W ratio of the original image is ~1.47 */
+     width: 8.5rem;
 }
 
 .blog-post-content {
@@ -120,52 +112,54 @@ footer {
 }
 
 pre {
-    padding-left: 5px;
-    padding-right: 5px;
+    padding-left: 0.3125rem;
+    padding-right: 0.3125rem;
 }
 
 .single-button {
-    -webkit-border-top-left-radius: 2px;
-    -moz-border-radius-topleft: 2px;
-    border-top-left-radius: 2px;
-    -webkit-border-top-right-radius: 2px;
-    -moz-border-radius-topright: 2px;
-    border-top-right-radius: 2px;
-    -webkit-border-bottom-right-radius: 2px;
-    -moz-border-radius-bottomright: 2px;
-    border-bottom-right-radius: 2px;
-    -webkit-border-bottom-left-radius: 2px;
-    -moz-border-radius-bottomleft: 2px;
-    border-bottom-left-radius: 2px;
+    -webkit-border-top-left-radius: 0.125rem;
+    -moz-border-radius-topleft: 0.125rem;
+    border-top-left-radius: 0.125rem;
+    -webkit-border-top-right-radius: 0.125rem;
+    -moz-border-radius-topright: 0.125rem;
+    border-top-right-radius: 0.125rem;
+    -webkit-border-bottom-right-radius: 0.125rem;
+    -moz-border-radius-bottomright: 0.125rem;
+    border-bottom-right-radius: 0.125rem;
+    -webkit-border-bottom-left-radius: 0.125rem;
+    -moz-border-radius-bottomleft: 0.125rem;
+    border-bottom-left-radius: 0.125rem;
     text-indent: 0;
-    padding: 3px 30px;
+    padding: 0.1875rem 1.875rem;
 }
-.single-button:hover .single-button:active {top: 1px;}
 /* This button was generated using CSSButtonGenerator.com */
 
 #social_profiles {
-    margin: 10px;
+    margin: 0.625rem;
 }
 #social_profiles a {
-    margin: 2px;
+    margin: 0.125rem;
 }
 
 .vertical-line-menu {
-    padding: 5px 0 5px 10px;
-    margin: 5px 0 5px 15px;
+    padding: 0.3125rem 0 0.3125rem 0.625rem;
+    margin: 0.3125rem 0 0.3125rem 0.9375rem;
 }
 
 .resume-header-icon {
      margin-right: 1rem;
 }
 
-table {margin-left: 10px}
+.photo-description {
+    margin-top: -3.75rem;
+    margin-bottom: 3.75rem;
+}
+
+table {margin-left: 0}
 .table-col1 {
-    width: 170px;
-    padding: 0 10px 0 0;
+    padding: 0 0.625rem 0 0;
 }
 .table-col2 {
-    width: calc(100% - 170px);
     padding: 0 0;
 }
-.skills-bullet {padding: 0 5px;}
+.skills-bullet {padding: 0 0.3125rem;}

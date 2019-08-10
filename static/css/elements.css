@@ -78,7 +78,7 @@ body .container-fluid {position: relative;}
 .container-header-bg-resume,
 .container-header-bg-blog {
     background-repeat: no-repeat;
-    background-position: 0 -15.625rem;
+    background-position: 0 -5.625rem;
     background-attachment: fixed;
     background-size: contain;
 }

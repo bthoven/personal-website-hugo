@@ -1,0 +1,61 @@
+/*************** DEVICE-SPECIFIC SETTINGS ***************/
+
+/*****************************************************************************/
+/* FOR DEVICES WITH A DISPLAY WIDTH LESS OR EQUAL TO THE DEFINED BELOW       */
+/* SOME DEVICE WIDTHS:                                                       */
+/*   iPhone 5/SE:       20rem (320px)                                        */
+/*   Galaxy S5:         22.5rem (360px)                                      */
+/*   iPhone 6/7/8:      23.4375rem (375px)                                   */
+/*   iPhone X:          23.4375rem (375px)                                   */
+/*   Pixel 2:           25.6875rem (411px)                                   */
+/*   Pixel 2 XL:        25.6875rem (411px)                                   */
+/*   iPhone 6/7/8 Plus: 25.875rem (414px)                                    */
+/*   Nexus 7:           37.5rem (600px)                                      */
+/*   LG K8:             45rem (720px)                                        */
+/*   iPad:              48rem (768px)                                        */
+/*   iPad Pro:          64rem (1024px)                                       */
+/*   Laptop with MDPI:  80rem (1280px)                                       */
+/*   Laptop with Touch: 80rem (1280px)                                       */
+/*   Laptop with HiDPI: 90rem (1440px)                                       */
+/*****************************************************************************/
+@media (max-width: 21rem) {
+    #page-title h1 {
+        font-size: 270%;
+    }
+}
+@media (min-width: 21rem) and (max-width: 25rem) {
+    #page-title h1 {
+        font-size: 300%;
+    }
+}
+@media (min-width: 25rem) and (max-width: 30rem) {
+    #page-title h1 {
+        font-size: 350%;
+    }
+}
+@media (min-width: 30rem) and (max-width: 50rem) {
+    #page-title h1 {
+        font-size: 450%;
+    }
+}
+
+@media (max-width: 30rem) {
+    .container-header-bg,
+    .container-header-bg-about,
+    .container-header-bg-publications,
+    .container-header-bg-portfolio,
+    .container-header-bg-resume,
+    .container-header-bg-blog {
+        background-position: -370px -140px;
+    }
+}
+@media (min-width: 30rem) and (max-width: 70rem) {
+    .container-header-bg,
+    .container-header-bg-about,
+    .container-header-bg-publications,
+    .container-header-bg-portfolio,
+    .container-header-bg-resume,
+    .container-header-bg-blog {
+        background-position: -350px -140px;
+    }
+}
